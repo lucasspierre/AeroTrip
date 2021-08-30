@@ -1,0 +1,352 @@
+.navbar-trans {
+    background: transparent;
+}
+
+.cover {
+    background: #2b2d34 url('../images/bg_principal.jpg') center;
+    background-size: cover;
+    min-height: 50rem;
+    height: 1000px;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+a {
+    color: white !important;
+}
+
+a:hover {
+    color: rgb(173, 173, 173) !important;
+}
+
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 390px;
+}
+
+.caixa-texto {
+    position: absolute;
+    top: 50%;
+    left: 368px;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.formulario {
+    border-radius: 10px !important;
+    background: #fff !important;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif !important;
+    font-size: 15pt !important;
+    height: 50px !important;
+    width: 200px !important;
+    text-align: center !important;
+}
+
+.divisa {
+    border-radius: 10px !important;
+    color: rgb(6, 118, 184) !important;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif !important;
+    background: #fff !important;
+    font-size: 15pt !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.botao {
+    font-family: inherit !important;
+    border-radius: 10px !important;
+    color: #fff;
+    font-size: 15pt !important;
+    height: 50px !important;
+    width: 146px !important;
+    margin-top: 37px !important;
+}
+
+.titulos {
+    font-size: 18px !important;
+    color: #fff !important;
+    padding-left: 5px !important;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+    padding-right: 100% !important;
+}
+
+.datas {
+    font-size: 18px !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+}
+
+.label {
+    float: left;
+    width: 19%;
+}
+
+.label--right {
+    text-align: right;
+    width: 78.5%;
+}
+
+
+.letreiro {
+    font-size: 4rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.letreiro span.typed-text {
+    font-weight: normal;
+    color: rgb(6, 118, 184);
+}
+
+.letreiro span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.letreiro span.cursor.typing {
+    animation: none;
+}
+
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+
+    49% {
+        background-color: #ccc;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ccc;
+    }
+}
+
+/*Data PICKER*/
+input {
+    border-radius: 10px !important;
+    background: #fff !important;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif !important;
+    font-size: 15pt !important;
+    height: 50px !important;
+    width: 200px !important;
+    text-align: center !important;
+}
+
+.datepicker {
+    color: inherit;
+    background-color: #fff;
+    border-radius: 4px !important;
+    border: 1px solid !important;
+    border-color: #057eff !important;
+    padding: 10px !important;
+    font-family: Arial !important;
+    font-size: 14px !important;
+
+}
+
+.datepicker td,
+.datepicker th {
+    padding: 4px !important;
+}
+
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover {
+    color: #999;
+    cursor: not-allowed;
+    text-decoration: line-through;
+
+}
+
+.datepicker table tr td.today,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover {
+    background-image: linear-gradient(to bottom, #dee2e6, #e9ecef) !important;
+    background-repeat: repeat-x;
+}
+
+.datepicker table tr td.selected,
+.datepicker table tr td.selected:hover,
+.datepicker table tr td.selected.disabled,
+.datepicker table tr td.selected.disabled:hover {
+    background-image: linear-gradient(to bottom, #0b78ff, #0044cc) !important;
+}
+
+.datepicker table tr td.range,
+.datepicker table tr td.range:hover,
+.datepicker table tr td.range.disabled,
+.datepicker table tr td.range.disabled:hover {
+    background: #0078f947 !important;
+}
+
+.formulario-cadastro {
+    border-radius: 10px !important;
+    color: black !important;
+    background: #fff !important;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif !important;
+    font-size: 10pt !important;
+    height: 30px !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.cartao {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    border-top: 40px solid #212529;
+    border-radius: 20px;
+    border-bottom: 25px solid#212529;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    padding-right: 2px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719), 0 18px 45px 0 rgba(0, 0, 0, 0.582);
+}
+
+.cartao-corpo {
+    margin-bottom: 13px;
+}
+
+.logo {
+    margin-top: -52px;
+    color: whitesmoke;
+}
+
+.ticket {
+    border: 0px solid black !important;
+    color: black !important;
+    font-size: 12pt !important;
+    height: 30px !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+
+}
+
+.cartao1 {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    border-top: 40px solid #212529;
+    border-radius: 20px;
+    border-bottom: 25px solid#212529;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    padding-right: 2px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719), 0 18px 45px 0 rgba(0, 0, 0, 0.582);
+}
+
+.cartao-corpo1 {
+    margin-bottom: -30px;
+}
+
+.logo1 {
+    margin-top: -52px;
+    color: whitesmoke;
+}
+
+.ticket1 {
+    border: 0px solid black !important;
+    color: black !important;
+    font-size: 12pt !important;
+    height: 30px !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+
+}
+
+.ticket-botao {
+    background-color: #212529;
+    color: white;
+
+}
+
+.pagina-principal {
+    padding-top: 60px;
+    padding-left: 2px;
+    margin-bottom: 15px;
+}
+
+.textos-principal {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+
+.img_section5 figure img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+    width: "250px";
+    height: "400px";
+    border-radius: 1px;
+    padding-bottom: 5px;
+}
+
+.img_section5:hover figure img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.img_section5 span {
+    opacity: 0;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 250;
+    margin-left: unset;
+}
+
+.img_section5:hover span {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+
+}
+
+
+.bg-pagina-cadastro {
+    background-image: url('../images/bg_cadastro.jpg');
+
+    filter: blur(8px);
+    -webkit-filter: blur(7px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagina-cadastro {
+
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    text-align: center;
+}
+
+body,
+html {
+    height: 100%;
+}

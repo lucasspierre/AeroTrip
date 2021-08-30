@@ -1,5 +1,5 @@
 <h3 align="center">Site em PHP utilizando Bootstrap e MySQL, com crud completo</h3>
-<h5>Foi utilizado conceitos básicos de SQL e PHP/HTML/CSS;</h5>
+<h5>Foi utilizado conceitos básicos de SQL, PHP, HTML/CSS e JS;</h5>
 <h5>- Sistema de busca de passagens;</h5>
 <h5>- Precificação de pacotes de viagem;</h5>
 <h5>- Inserção de dados de clientes/destinos;</h5>
